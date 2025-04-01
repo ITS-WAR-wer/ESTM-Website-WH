@@ -1,0 +1,144 @@
+html {
+    scroll-behavior: smooth;
+    }
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.header {
+    color: white;
+    background-image: url(red2_2000x1120.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    width: 100%;
+    padding: 2px;
+    height: auto;
+}
+.mainheader {
+    gap: 20px;
+    font-size: 5vw;
+    font-family: Dancing Script;
+    text-shadow: 3.5px 3.5px 3.5px white;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgcontainer {
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+.top-header {
+    background-color: green;
+    border: none;
+}
+.scrollingquote {
+    font-size: 2vw;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-family: Dancing Script;
+    text-shadow: 2px 2px 2px red;
+}
+.depheader {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.stafflink {
+    width: 12%;
+}
+
+.arrowcont {
+    background-color: none;
+    border-radius: 35%;
+    width: 35%;
+    height: auto;
+    padding: .5vw;
+    margin-top: 3vw;
+    margin-left: 4vw;
+}
+
+    .arrowcont:hover {
+        background-image: radial-gradient(red,white,green);
+        box-shadow: black 2px 2px 2px;
+        border: solid green 2px;
+    }
+
+.backarrow {
+    width: 100%;
+    height: auto;
+}
+
+.depname {
+    width: 100%;
+    height: 10vw;
+    font-family: dancing script;
+    font-size: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 25vw;
+    text-shadow: blue 1px 1px 1px;
+    font-weight: bold;
+}
+
+.courseinfocont {
+    display: flex;
+    width: 100%;
+    min-height: 60vw;
+    height: auto;
+    padding: 2vw;
+}
+
+.courseimgcont {
+    max-width: 65%;
+    height: auto;
+}
+
+.courseimg {
+    width: 100%;
+    height: auto;
+    border: inset white 3px;
+
+    top: 3vw;
+}
+
+
+.coursedesc {
+    padding: 1vw;
+    max-width: 50%;
+    height: auto;
+    font-size: 1.5vw;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+    .coursedesc h1 {
+        font-family: dancing script;
+        text-shadow: gray 2px 2px 2px;
+        font-weight: bold;
+        font-size: 3vw;
+    }
+
+.coursedesc h3 {
+    font-family: dancing script;
+    text-shadow: gray 2px 2px 2px;
+    font-size: 2vw;
+}
+.tour{position: relative;
+    width: 100%;
+    overflow: hidden;
+}
